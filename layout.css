@@ -1,0 +1,105 @@
+#content {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+.nav_large {
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fa5c4f;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+.nav_large h1 {
+  float: left;
+  margin: 25px;
+  font-size: 31px;
+  font-weight: 200;
+  color: #fff;
+  display: inline-block;
+}
+@media screen and (max-width: 600px) {
+  .nav_large h1 {
+    display: block;
+    text-align: center;
+    float: center;
+  }
+}
+.nav_large ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: #363636;
+  color: #fff;
+  list-style-type: none;
+}
+.nav_large ul.right {
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  .nav_large ul {
+    display: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+}
+.nav_large li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  height: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+  border-left: 1px solid #000;
+}
+.nav_large li a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  margin-top: 50%;
+  display: inline-block;
+  font-weight: 200;
+}
+.nav_large li:hover {
+  background: #000;
+}
+.nav_large .right li:last-child {
+  height: 90px;
+  background: #ade849;
+  display: none;
+}
+.nav_large .right li:last-child.show {
+  display: inline-block;
+}
+.nav_large .right li:last-child a {
+  display: inline-block;
+  font-size: 25px;
+  font-family: "liga";
+  text-decoration: none;
+  position: relative;
+  margin-top: 110%;
+  color: #363636;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.nav_large div a:hover {
+  background: #363636;
+  color: #fff;
+}
