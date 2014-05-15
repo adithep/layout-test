@@ -57,21 +57,20 @@
   float: left;
   display: inline-block;
   text-align: center;
-  height: 90px;
-  padding-left: 10px;
-  padding-right: 10px;
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   -o-transition: background 0.3s;
   transition: background 0.3s;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100px;
   border-left: 1px solid #000;
 }
 .nav_large li a {
   font-size: 20px;
   color: #fff;
   text-decoration: none;
-  position: relative;
-  margin-top: 50%;
+  padding: 40px 10px;
   display: inline-block;
   font-weight: 200;
 }
